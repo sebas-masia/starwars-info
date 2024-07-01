@@ -1,0 +1,23 @@
+.carousel-container {
+  display: flex;
+  gap: 16px;
+  padding: 16px;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  -webkit-overflow-scrolling: touch;
+}
+
+.carousel-container::-webkit-scrollbar {
+  display: block;
+}
+
+.carousel-container {
+  -ms-overflow-style: inherit;
+  scrollbar-width: thin;
+}
+
+.card {
+  flex: 0 0 auto;
+  width: 250px;
+  overflow: auto;
+}

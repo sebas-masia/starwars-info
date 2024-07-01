@@ -1,0 +1,5 @@
+.no-active-effect:active {
+  background-color: inherit;
+  color: inherit;
+  border-color: #ffffff;
+}

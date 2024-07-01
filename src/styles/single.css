@@ -1,0 +1,22 @@
+.white-border {
+  border-color: white !important;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-rows: auto auto;
+  gap: px;
+}
+
+.grid-item {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 2px;
+}
+
+.grid-item li {
+  width: 150px;
+  white-space: normal;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
